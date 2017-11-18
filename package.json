@@ -1,0 +1,26 @@
+{
+  "name": "managetimesheet",
+  "version": "0.0.1",
+  "description": "Projeto que visa disponibilizar um aplicativo para controle te timesheet e atividades",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha test/**"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "nodemon": "^1.12.1",
+    "restify": "^6.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeanfonsecaaquino/ManagerTimeSheet.git"
+  },
+  "author": "Jean Fonseca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeanfonsecaaquino/ManagerTimeSheet/issues"
+  },
+  "homepage": "https://github.com/jeanfonsecaaquino/ManagerTimeSheet#readme"
+}
