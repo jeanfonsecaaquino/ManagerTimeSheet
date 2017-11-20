@@ -4,14 +4,20 @@
   "description": "Projeto que visa disponibilizar um aplicativo para controle te timesheet e atividades",
   "main": "app.js",
   "scripts": {
-    "test": "mocha test/**"
+    "start": "nodemon app",
+    "start:development": "nodemon app ENV=development",
+    "test": "mocha test/**",
+    "test:development": "mocha test/** ENV=development"
   },
   "dependencies": {
     "axios": "^0.17.1",
     "chai": "^4.1.2",
+    "eslint": "^4.11.0",
+    "ioredis": "^3.2.1",
     "mocha": "^4.0.1",
     "nodemon": "^1.12.1",
-    "restify": "^6.3.2"
+    "restify": "^6.3.2",
+    "yargs": "^10.0.3"
   },
   "repository": {
     "type": "git",

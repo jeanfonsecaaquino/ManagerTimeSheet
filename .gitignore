@@ -4,6 +4,7 @@ lib-cov
 *.seed
 *.log
 *.csv
+*.vscode
 *.dat
 *.out
 *.pid
